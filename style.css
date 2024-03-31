@@ -1,0 +1,36 @@
+.container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Darker text for labels */
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="url"], 
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Subtle input border */
+}
+
+button[type="submit"] {
+    background-color: #008cba;  /* Blue submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0075a4; /* Darker blue on hover */
+}

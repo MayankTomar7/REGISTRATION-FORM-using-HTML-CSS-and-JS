@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website" placeholder="https://www.example.com"><br><br>
+
+            <label for="image">Image Link:</label>
+            <input type="url" id="image" name="image" placeholder="https://www.example.com/image.jpg"><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-binary">Non-Binary</option>
+                </select><br><br>
+
+            <label for="skills">Skills (Separate by commas):</label>
+            <input type="text" id="skills" name="skills" placeholder="e.g., HTML, CSS, JavaScript"><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="displayArea"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
